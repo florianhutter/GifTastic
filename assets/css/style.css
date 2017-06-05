@@ -40,7 +40,7 @@ body {
 
 .simpsonButton:hover {
   background-color: #f2d3e7;
-  color: #107DC0;
+  color: #25618A;
 }
 
 .simpsonButton:active {
@@ -90,7 +90,7 @@ body {
 
 .inputLabel {
   font-size: 20px;
-  color: #107DC0;
+  color: #25618A;
   margin: 15px 0px 7px 8px;
 }
 
@@ -125,6 +125,11 @@ body {
   background-color: #6FD0F5;
   border: 2px solid black;
   border-radius: 6px;
+}
+
+#add-character:hover {
+  background-color: #25618A;
+  color: white;
 }
 
 .row{
