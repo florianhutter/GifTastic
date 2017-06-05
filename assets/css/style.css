@@ -1,0 +1,139 @@
+* {
+  font-family: 'Francois One', sans-serif;
+}  
+
+body {
+  background: url("../images/background1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
+
+#logo{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.jumbotron {
+  position: relative;
+  background-color: transparent;
+}
+
+
+
+.simpsonButton {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: #EC5BA0;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: inline;
+  margin: 5px 5px;
+}
+
+.simpsonButton:hover {
+  background-color: #f2d3e7;
+  color: #107DC0;
+}
+
+.simpsonButton:active {
+  background-color: #117EAF;
+  transform: translateY(3px);
+}
+
+#gifPanel {
+  margin: 10px 0px 0px 0px;
+}
+
+.simpsonGif {
+  margin: 20px 20px 0px 0px;
+  float: left;
+  border-radius: 10px;
+  position: relative;
+  left: -15px;
+  background-color: #117EAF;
+  border: 3px solid black;
+}
+
+.simpsonGif:hover {
+  background-color: #D91E29;
+}
+
+.simpsonGif h2 {
+  font-size: 15px;
+  color: #B7DFEF;
+  text-align: center;
+  position: relative;
+  top: -3px;
+}
+
+.simpsonGif img {
+  border-radius: 0px 0px 7px 7px;
+  border-top: 3px solid black;
+}
+
+.formPanel {
+  border-radius: 10px;
+  background-color: #F7F51C;
+  height: 145px;
+  border: 3px solid black;
+  width: 195px;
+  margin-right: 20px;
+}
+
+.inputLabel {
+  font-size: 20px;
+  color: #107DC0;
+  margin: 15px 0px 7px 8px;
+}
+
+#simpsonInput {
+  width: 137px;
+  margin-left: 11px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#simpson-form {
+  height: 145px;
+}
+
+
+#add-character {
+  margin-top: 8px;
+  margin-left: 11px;
+  padding: 5px 45px;
+}
+
+#footer {
+  text-align: center;
+  color: #72a1d3;
+  background-color: #2A4573;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent;
+}
+
+#add-character {
+  background-color: #6FD0F5;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.row{
+  margin-left: -5px;
+  margin-top: 20px;
+}
+#instructions{
+  font-size: 25px;
+  color: black;
+  margin-top: 15px;
+	
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simpsons Giftastic</title>
+  <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+  <link rel="shortcut icon" type="/x-icon" href="assets/images/favicon/favicon.ico"/>
+</head>
+
+<body>
+  <body style="cursor: url('assets/images/bartpointing.jpg'), default">
+
+  <div class="container">
+
+    <div class="boxgrid">
+
+      <img id = "logo" src="assets/images/logo.png">
+      <h1 class="text-center" id="instructions">Click on the buttons to see the action</h1>
+      <p>     </p>
+    </div>
+
+   <div class="col-lg-2 formPanel"> 
+        <form id="simpson-form">
+          <label for="simpsonInput" class="inputLabel">Add a character</label>
+          <input type="text" id="simpsonInput"><br>
+
+          <input id="add-character" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="row" id="buttonPanel">
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-10" id="gifPanel">
+      </div>     
+
+    </div>
+
+    <div class="row">
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="./assets/javascript/giftastic.js"></script>
+
+</body>
+</html>
